@@ -1,7 +1,6 @@
 import os
 from template import HEADER, FOOTER
 
-
 ignored_directories = [
     "docs",
     "venv",
@@ -9,8 +8,8 @@ ignored_directories = [
     ".idea",
     ".pytest_cache",
     "__pycache__",
-    #"test_category1",
-    #"test_category2",
+    "test_category1",
+    "test_category2",
 ]
 
 
@@ -33,12 +32,12 @@ def get_data(categories: list):
                             (line[1:].strip(), os.path.join(category, file))
                         )
                         break
-        data[category.title()] = articles_in_category
+        data[category] = articles_in_category
     return data
 
 
 def write_output(data: dict):
-    with open("test_output.md", mode='w') as fout:
+    with open("readme.md", mode='w') as fout:
         # Write header
         fout.write(HEADER)
 
@@ -58,6 +57,9 @@ def write_output(data: dict):
 
         # write footer
         fout.write(FOOTER)
-c = get_categories()
-d = get_data(c)
-write_output(d)
+
+
+categories = get_categories()
+data = get_data(categories)
+write_output(data)
+print(data)
