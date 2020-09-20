@@ -6,7 +6,15 @@ A collection of concise write-ups and code snippets on those small nuggets of in
 
 
 ----
+- [Dicts](./content/Dicts)
+- [Lists](./content/Lists)
 ----
+Dicts
+- [Dictionaries](./content/Dicts/dicts.md)
+
+Lists
+- [Lists](./content/Lists/lists.md)
+
 ## Usage
 To create a new article:
 

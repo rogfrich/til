@@ -1,35 +1,39 @@
 import os
 from template import HEADER, FOOTER
 
-ignored_directories = [
-    "docs",
-    "venv",
-    ".git",
-    ".idea",
-    ".pytest_cache",
-    "__pycache__",
-    "test_category1",
-    "test_category2",
-]
+
+# ignored_directories = [
+#     "docs",
+#     "venv",
+#     ".venv",
+#     ".git",
+#     ".git",
+#     ".idea",
+#     ".pytest_cache",
+#     "__pycache__",
+#     "test_category1",
+#     "test_category2",
+# ]
 
 
 def get_categories():
-    categories = [
-        category for category in os.listdir(".") if os.path.isdir(category) and category not in ignored_directories
-    ]
-    return sorted(categories)
+    print(os.getcwd())
+    for folder, subfolders, files in os.walk("."):
+        if folder == './content':
+            return sorted([x for x in subfolders if not x.startswith("test")])
 
 
 def get_data(categories: list):
     data = {}
+    basepath = './content'
     for category in categories:
         articles_in_category = []
-        for file in sorted(os.listdir(category)):
-            with open(os.path.join(category, file)) as f:
+        for file in sorted(os.listdir(os.path.join(basepath, category))):
+            with open(os.path.join(basepath, category, file)) as f:
                 for line in f:
                     if line.startswith("#"):
                         articles_in_category.append(
-                            (line[1:].strip(), os.path.join(category, file))
+                            (line[1:].strip(), os.path.join(basepath, category, file))
                         )
                         break
         data[category] = articles_in_category
@@ -43,7 +47,7 @@ def write_output(data: dict):
 
         # Write list of categories:
         for category in data.keys():
-            fout.write(f"- [{category}](./{category})\n")
+            fout.write(f"- [{category}](./content/{category})\n")
 
         fout.write("----")
 
@@ -60,6 +64,8 @@ def write_output(data: dict):
 
 
 categories = get_categories()
+print(categories)
+
 data = get_data(categories)
-write_output(data)
 print(data)
+write_output(data)
