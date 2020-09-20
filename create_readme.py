@@ -2,22 +2,7 @@ import os
 from template import HEADER, FOOTER
 
 
-# ignored_directories = [
-#     "docs",
-#     "venv",
-#     ".venv",
-#     ".git",
-#     ".git",
-#     ".idea",
-#     ".pytest_cache",
-#     "__pycache__",
-#     "test_category1",
-#     "test_category2",
-# ]
-
-
 def get_categories():
-    print(os.getcwd())
     for folder, subfolders, files in os.walk("."):
         if folder == './content':
             return sorted([x for x in subfolders if not x.startswith("test")])
@@ -42,7 +27,6 @@ def get_data(categories: list):
 
 def write_output(data: dict):
     with open("readme.md", mode='w') as fout:
-        # Write header
         fout.write(HEADER)
 
         # Write list of categories:
@@ -59,13 +43,10 @@ def write_output(data: dict):
                 file = title_file_pair[1]
                 fout.write(f"- [{title}]({file})\n")
 
-        # write footer
         fout.write(FOOTER)
 
 
-categories = get_categories()
-print(categories)
-
-data = get_data(categories)
-print(data)
-write_output(data)
+if __name__ == '__main__':
+    categories = get_categories()
+    data = get_data(categories)
+    write_output(data)
