@@ -37,7 +37,7 @@ def write_output(data: dict):
 
         # Write index of articles:
         for k, v in data.items():
-            fout.write(f"\n###{k}\n")
+            fout.write(f"\n### {k}\n")
             for title_file_pair in v:
                 title = title_file_pair[0]
                 file = title_file_pair[1]
