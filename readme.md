@@ -3,11 +3,15 @@
 
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
+
+So far, I have learned 3 things.
+
 ## Categories
 - [Dicts](#dicts)
 - [Lists](#lists)
 ----
 ### Dicts
+- [More about dicts!](./content/Dicts/another_dict_article.md)
 - [Dictionaries](./content/Dicts/dicts.md)
 
 ### Lists

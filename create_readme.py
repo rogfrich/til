@@ -24,12 +24,21 @@ def get_data(categories: list):
         data[category] = articles_in_category
     return data
 
+def get_things_learned_count(data: dict):
+    things_learned_count = 0
+    for value in data.values():
+        things_learned_count += len(value)
+
+    return things_learned_count
+
 
 def write_output(data: dict):
+
     with open("readme.md", mode='w') as fout:
         fout.write(HEADER)
-
+        fout.write(f"So far, I have learned {get_things_learned_count(data)} things.\n\n")
         # Write list of categories:
+        fout.write('## Categories\n')
         for category in data.keys():
             fout.write(f"- [{category}](#{category.lower()})\n")
 

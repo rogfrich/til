@@ -1,5 +1,5 @@
 import os
-from create_readme import get_categories, get_data
+from create_readme import get_categories, get_data, get_things_learned_count
 
 
 def test_get_categories():
@@ -25,3 +25,12 @@ def test_get_data_returns_correct_values():
     test_categories = ["test_category1", "test_category2"]
     data = get_data(test_categories)
     assert data == valid_data
+
+def test_things_learned_count():
+    categories = get_categories()
+    data = get_data(categories)
+    correct_count = 0
+    for v in data.values():
+        correct_count += len(v)
+
+    assert get_things_learned_count(data) == correct_count
