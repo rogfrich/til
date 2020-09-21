@@ -4,13 +4,13 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 ## Categories
-- [Dicts](./content/Dicts)
-- [Lists](./content/Lists)
+- [Dicts](#dicts)
+- [Lists](#lists)
 ----
-Dicts
+###Dicts
 - [Dictionaries](./content/Dicts/dicts.md)
 
-Lists
+###Lists
 - [Lists](./content/Lists/lists.md)
 
 ## Usage
