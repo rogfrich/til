@@ -1,11 +1,9 @@
 
-# til
-Today I Learned...
+# Today I Learned...
 
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
-
-----
+## Categories
 - [Dicts](./content/Dicts)
 - [Lists](./content/Lists)
 ----
