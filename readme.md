@@ -11,8 +11,8 @@ So far, I have learned 4 things.
 - [Lists](#lists)
 ----
 ### Dicts
-- [Dictionaries](./content/Dicts/dicts.md)
-- [More about dicts!](./content/Dicts/another_dict_article.md)
+- [Dictionaries](content/Python datatypes/dicts.md)
+- [More about dicts!](content/Python datatypes/another_dict_article.md)
 
 ### Lists
 - [A note about list comprehensions](./content/Lists/list_comps.md)
