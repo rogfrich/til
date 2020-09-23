@@ -1,3 +1,0 @@
-# Dictionary comprehension
-
-Add something...

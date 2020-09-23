@@ -4,19 +4,21 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 4 things.
+So far, I have learned 3 things.
 
 ## Categories
-- [Dicts](#dicts)
-- [Lists](#lists)
+- [Python built-ins](#python built-ins)
+- [Python datatypes](#python datatypes)
+- [Standard Library](#standard library)
 ----
-### Dicts
-- [Dictionaries](content/Python datatypes/dicts.md)
-- [More about dicts!](content/Python datatypes/another_dict_article.md)
+### Python built-ins
+- [Divmod()](./content/Python built-ins/divmod.md)
 
-### Lists
-- [A note about list comprehensions](./content/Lists/list_comps.md)
-- [Lists](./content/Lists/lists.md)
+### Python datatypes
+- [Dictionary comprehension](./content/Python datatypes/dict_comps.md)
+
+### Standard Library
+- [Getting the difference between two datetime objects](./content/Standard Library/timedelta.md)
 
 ## Usage
 To create a new article:
