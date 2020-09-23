@@ -40,7 +40,7 @@ def write_output(data: dict):
         # Write list of categories:
         fout.write('## Categories\n')
         for category in data.keys():
-            fout.write(f"- [{category}](#{category.lower()})\n")
+            fout.write(f"- [{category}](<#{category.lower()}>)\n")
 
         fout.write("----")
 
@@ -50,7 +50,7 @@ def write_output(data: dict):
             for title_file_pair in sorted(v):
                 title = title_file_pair[0]
                 file = title_file_pair[1]
-                fout.write(f"- [{title}]({file})\n")
+                fout.write(f"- [{title}](<{file}>)\n")
 
         fout.write(FOOTER)
 

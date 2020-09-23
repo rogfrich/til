@@ -7,18 +7,18 @@ A collection of concise write-ups and code snippets on those small nuggets of in
 So far, I have learned 3 things.
 
 ## Categories
-- [Python built-ins](#python built-ins)
-- [Python datatypes](#python datatypes)
-- [Standard Library](#standard library)
+- [Python built-ins](<#python built-ins>)
+- [Python datatypes](<#python datatypes>)
+- [Standard Library](<#standard library>)
 ----
 ### Python built-ins
-- [Divmod()](content/Python built-ins/divmod.md)
+- [Divmod()](<./content/Python built-ins/divmod.md>)
 
 ### Python datatypes
-- [Dictionary comprehension](./content/Python datatypes/dict_comps.md)
+- [Dictionary comprehension](<./content/Python datatypes/dict_comps.md>)
 
 ### Standard Library
-- [Getting the difference between two datetime objects](./content/Standard Library/timedelta.md)
+- [Getting the difference between two datetime objects](<./content/Standard Library/timedelta.md>)
 
 ## Usage
 To create a new article:
