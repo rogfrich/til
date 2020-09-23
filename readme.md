@@ -12,7 +12,7 @@ So far, I have learned 3 things.
 - [Standard Library](#standard library)
 ----
 ### Python built-ins
-- [Divmod()](./content/Python built-ins/divmod.md)
+- [Divmod()](content/Python built-ins/divmod.md)
 
 ### Python datatypes
 - [Dictionary comprehension](./content/Python datatypes/dict_comps.md)
