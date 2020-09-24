@@ -46,7 +46,7 @@ def write_output(data: dict):
         fout.write('## Categories\n')
         for category in data.keys():
             fout.write(
-                f"- [{category}](<#{convert_spaces_to_dashes(category)}>)\n")  # TODO - fix this so it replaces spaces in the category name with hyphens
+                f"- [{category}](<#{convert_spaces_to_dashes(category)}>)\n")
 
         fout.write("----")
 
