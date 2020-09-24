@@ -4,13 +4,21 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 3 things.
+So far, I have learned 5 things.
 
 ## Categories
+- [Black](<#Black>)
+- [Markdown](<#Markdown>)
 - [Python built-ins](<#Python-built-ins>)
 - [Python datatypes](<#Python-datatypes>)
 - [Standard Library](<#Standard-Library>)
 ----
+### Black
+- [Excluding directories](<./content/Black/exclude_directories.md>)
+
+### Markdown
+- [Internal links in Markdown docs](<./content/Markdown/internal_links.md>)
+
 ### Python built-ins
 - [Divmod()](<./content/Python built-ins/divmod.md>)
 
