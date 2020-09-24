@@ -4,13 +4,13 @@ from template import HEADER, FOOTER
 
 def get_categories():
     for folder, subfolders, files in os.walk("."):
-        if folder == './content':
+        if folder == "./content":
             return sorted([x for x in subfolders if not x.startswith("test")])
 
 
 def get_data(categories: list):
     data = {}
-    basepath = './content'
+    basepath = "./content"
     for category in categories:
         articles_in_category = []
         for file in sorted(os.listdir(os.path.join(basepath, category))):
@@ -39,14 +39,15 @@ def convert_spaces_to_dashes(text: str) -> str:
 
 
 def write_output(data: dict):
-    with open("readme.md", mode='w') as fout:
+    with open("readme.md", mode="w") as fout:
         fout.write(HEADER)
-        fout.write(f"So far, I have learned {get_things_learned_count(data)} things.\n\n")
+        fout.write(
+            f"So far, I have learned {get_things_learned_count(data)} things.\n\n"
+        )
         # Write list of categories:
-        fout.write('## Categories\n')
+        fout.write("## Categories\n")
         for category in data.keys():
-            fout.write(
-                f"- [{category}](<#{convert_spaces_to_dashes(category)}>)\n")
+            fout.write(f"- [{category}](<#{convert_spaces_to_dashes(category)}>)\n")
 
         fout.write("----")
 
@@ -61,7 +62,7 @@ def write_output(data: dict):
         fout.write(FOOTER)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     categories = get_categories()
     data = get_data(categories)
     write_output(data)
