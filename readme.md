@@ -7,9 +7,9 @@ A collection of concise write-ups and code snippets on those small nuggets of in
 So far, I have learned 3 things.
 
 ## Categories
-- [Python built-ins](<#python built-ins>)
-- [Python datatypes](<#python datatypes>)
-- [Standard Library](<#standard library>)
+- [Python built-ins](<#Python-built-ins>)
+- [Python datatypes](<#Python-datatypes>)
+- [Standard Library](<#Standard-Library>)
 ----
 ### Python built-ins
 - [Divmod()](<./content/Python built-ins/divmod.md>)

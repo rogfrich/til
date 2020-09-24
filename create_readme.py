@@ -24,6 +24,7 @@ def get_data(categories: list):
         data[category] = articles_in_category
     return data
 
+
 def get_things_learned_count(data: dict):
     things_learned_count = 0
     for value in data.values():
@@ -32,15 +33,20 @@ def get_things_learned_count(data: dict):
     return things_learned_count
 
 
-def write_output(data: dict):
+def convert_spaces_to_dashes(text: str) -> str:
+    split_text = text.split()
+    return "-".join(split_text)
 
+
+def write_output(data: dict):
     with open("readme.md", mode='w') as fout:
         fout.write(HEADER)
         fout.write(f"So far, I have learned {get_things_learned_count(data)} things.\n\n")
         # Write list of categories:
         fout.write('## Categories\n')
         for category in data.keys():
-            fout.write(f"- [{category}](<#{category.lower()}>)\n")
+            fout.write(
+                f"- [{category}](<#{convert_spaces_to_dashes(category)}>)\n")  # TODO - fix this so it replaces spaces in the category name with hyphens
 
         fout.write("----")
 

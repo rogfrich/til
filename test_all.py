@@ -1,5 +1,5 @@
 import os
-from create_readme import get_categories, get_data, get_things_learned_count
+from create_readme import get_categories, get_data, get_things_learned_count, convert_spaces_to_dashes
 
 
 def test_get_categories():
@@ -34,3 +34,7 @@ def test_things_learned_count():
         correct_count += len(v)
 
     assert get_things_learned_count(data) == correct_count
+
+def test_convert_spaces_to_dashes():
+    test_string = "I am a string"
+    assert convert_spaces_to_dashes(test_string) == "I-am-a-string"
