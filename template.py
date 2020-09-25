@@ -9,8 +9,8 @@ FOOTER = """
 To create a new article:\n
 1. Create a new .md file (and a new folder, if it's a new category).
 1. The title of the new article will be the first level one heading in the file. Use '#', not 'H1'.
-1. When all new articles have been added, run `create_readme.py`.
-1. If edits are made directly in the GitHub editor **make sure to `git pull` the latest version before running `create_readme.py`**.
+1. Once all new articles are added, commit changes to git. Assuming `python-githooks` is installed and set up, this `readme.md` should be automatically regenerated (the test suite will also run, and Python files will be blackened). 
+1. If edits are made directly in the GitHub editor **make sure to `git pull` the latest version before committing any new articles to the repo locally, or you'll lose the remote changes.
 
 ## About
 [Jim Anderson](https://github.com/jima80525) suggested that I build a "Today I Learned..." repo when I asked on the [Real Python](https://realpython.com/) Slack channel how people were storing their code snippets.

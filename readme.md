@@ -4,10 +4,11 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 6 things.
+So far, I have learned 7 things.
 
 ## Categories
 - [Black](<#Black>)
+- [Git and Github](<#Git-and-Github>)
 - [Markdown](<#Markdown>)
 - [Python built-ins](<#Python-built-ins>)
 - [Python datatypes](<#Python-datatypes>)
@@ -15,6 +16,9 @@ So far, I have learned 6 things.
 ----
 ### Black
 - [Excluding directories](<./content/Black/exclude_directories.md>)
+
+### Git and Github
+- [Python-githooks](<./content/Git and Github/python-githooks_writeup.md>)
 
 ### Markdown
 - [Internal links in Markdown docs](<./content/Markdown/internal_links.md>)
