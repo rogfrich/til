@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 10 things.
+So far, I have learned 11 things.
 
 ## Categories
 - [Black](<#Black>)
@@ -25,6 +25,7 @@ So far, I have learned 10 things.
 
 ### Markdown
 - [Internal links in Markdown docs](<./content/Markdown/internal_links.md>)
+- [Test](<./content/Markdown/test.md>)
 
 ### Python built-ins
 - [Divmod()](<./content/Python built-ins/divmod.md>)
