@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 11 things.
+So far, I have learned 7 things.
 
 ## Categories
 - [Black](<#Black>)
@@ -19,13 +19,9 @@ So far, I have learned 11 things.
 
 ### Git and Github
 - [Python-githooks](<./content/Git and Github/python-githooks_writeup.md>)
-- [Test](<./content/Git and Github/test.md>)
-- [Test 2](<./content/Git and Github/test2.md>)
-- [Test 3](<./content/Git and Github/test3.md>)
 
 ### Markdown
 - [Internal links in Markdown docs](<./content/Markdown/internal_links.md>)
-- [Test](<./content/Markdown/test.md>)
 
 ### Python built-ins
 - [Divmod()](<./content/Python built-ins/divmod.md>)
