@@ -66,3 +66,4 @@ if __name__ == "__main__":
     categories = get_categories()
     data = get_data(categories)
     write_output(data)
+    print("Regenerated readme.md index")
