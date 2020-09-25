@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 7 things.
+So far, I have learned 6 things.
 
 ## Categories
 - [Black](<#Black>)
@@ -30,7 +30,6 @@ So far, I have learned 7 things.
 - [Dictionary comprehension](<./content/Python datatypes/dict_comps.md>)
 
 ### Standard Library
-- [Delete me](<./content/Standard Library/delete_me.md>)
 - [Getting the difference between two datetime objects](<./content/Standard Library/timedelta.md>)
 
 ## Usage
