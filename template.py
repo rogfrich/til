@@ -14,7 +14,7 @@ To create a new article:\n
 
 ## About
 [Jim Anderson](https://github.com/jima80525) suggested that I build a "Today I Learned..." repo when I asked on the [Real Python](https://realpython.com/) Slack channel how people were storing their code snippets.
-Jim's reward for this kindness was that I shamelessly copied [his own TIL](https://github.com/jima80525/til)(although I've added quite a lot of features since then). Thank you Jim, for the suggestion and inspiration!
+Jim's reward for this kindness was that I shamelessly copied [his own TIL](https://github.com/jima80525/til) (although I've added quite a lot of features since then). Thank you Jim, for the suggestion and inspiration!
 
 ## License
 This repository is licensed under the MIT license. See `LICENSE` for details.
