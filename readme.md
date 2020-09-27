@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 6 things.
+So far, I have learned 8 things.
 
 ## Categories
 - [Black](<#Black>)
@@ -25,9 +25,11 @@ So far, I have learned 6 things.
 
 ### Python built-ins
 - [Divmod()](<./content/Python built-ins/divmod.md>)
+- [Using zip() to combine iterables](<./content/Python built-ins/zip.md>)
 
 ### Python datatypes
 - [Dictionary comprehension](<./content/Python datatypes/dict_comps.md>)
+- [List Comprehensions to combine elements of multiple lists](<./content/Python datatypes/list_comp.md>)
 
 ### Standard Library
 - [Getting the difference between two datetime objects](<./content/Standard Library/timedelta.md>)
