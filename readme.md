@@ -12,7 +12,7 @@ So far, I have learned 8 things.
 - [Markdown](<#Markdown>)
 - [Python built-ins](<#Python-built-ins>)
 - [Python datatypes](<#Python-datatypes>)
-- [Standard Library](<#Standard-Library>)
+- [Python standard library](<#Python-standard-library>)
 ----
 ### Black
 - [Excluding directories](<./content/Black/exclude_directories.md>)
@@ -31,8 +31,8 @@ So far, I have learned 8 things.
 - [Dictionary comprehension](<./content/Python datatypes/dict_comps.md>)
 - [List Comprehensions to combine elements of multiple lists](<./content/Python datatypes/list_comp.md>)
 
-### Standard Library
-- [Getting the difference between two datetime objects](<./content/Standard Library/timedelta.md>)
+### Python standard library
+- [Getting the difference between two datetime objects](<./content/Python standard library/timedelta.md>)
 
 ## Usage
 To create a new article:
