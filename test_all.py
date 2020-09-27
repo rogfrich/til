@@ -1,10 +1,18 @@
-import os
+import os, subprocess
 from create_readme import (
     get_categories,
     get_data,
     get_things_learned_count,
     convert_spaces_to_dashes,
 )
+def test_local_repo_is_up_to_date():
+    """
+    Make sure that the local repo is up to date with the remote - if not, we'll lose any changes to the remote when we
+    regenerate the file.
+    """
+    subprocess.run(["git", "fetch"])
+    git_status = str(subprocess.check_output(["git", "status"]))
+    assert "branch is behind" not in git_status
 
 
 def test_get_categories():
