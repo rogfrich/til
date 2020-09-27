@@ -5,6 +5,8 @@ from create_readme import (
     get_things_learned_count,
     convert_spaces_to_dashes,
 )
+
+
 def test_local_repo_is_up_to_date():
     """
     Make sure that the local repo is up to date with the remote - if not, we'll lose any changes to the remote when we

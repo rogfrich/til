@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 8 things.
+So far, I have learned 9 things.
 
 ## Categories
 - [Black](<#Black>)
@@ -18,6 +18,7 @@ So far, I have learned 8 things.
 - [Excluding directories](<./content/Black/exclude_directories.md>)
 
 ### Git and Github
+- [Git pull vs git fetch](<./content/Git and Github/git_pull_vs_fetch.md>)
 - [Python-githooks](<./content/Git and Github/python-githooks_writeup.md>)
 
 ### Markdown
