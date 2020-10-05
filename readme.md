@@ -8,7 +8,7 @@ So far, I have learned 10 things.
 
 ## Categories
 - [Black](<#Black>)
-- [Doh!](<#Doh!>)
+- [Doh](<#Doh>)
 - [Git and Github](<#Git-and-Github>)
 - [Markdown](<#Markdown>)
 - [Python built-ins](<#Python-built-ins>)
@@ -18,8 +18,8 @@ So far, I have learned 10 things.
 ### Black
 - [Excluding directories](<./content/Black/exclude_directories.md>)
 
-### Doh!
-- [String comparisons - always consider case](<./content/Doh!/string_search.md>)
+### Doh
+- [String comparisons - always consider case](<./content/Doh/string_search.md>)
 
 ### Git and Github
 - [Git pull vs git fetch](<./content/Git and Github/git_pull_vs_fetch.md>)
