@@ -4,10 +4,11 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 10 things.
+So far, I have learned 11 things.
 
 ## Categories
 - [Black](<#Black>)
+- [Django](<#Django>)
 - [Doh](<#Doh>)
 - [Git and Github](<#Git-and-Github>)
 - [Markdown](<#Markdown>)
@@ -17,6 +18,9 @@ So far, I have learned 10 things.
 ----
 ### Black
 - [Excluding directories](<./content/Black/exclude_directories.md>)
+
+### Django
+- [Setting up a new Django project](<./content/Django/django_new_proj_setup.md>)
 
 ### Doh
 - [String comparisons - always consider case](<./content/Doh/string_search.md>)
