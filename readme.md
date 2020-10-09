@@ -4,9 +4,10 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 11 things.
+So far, I have learned 12 things.
 
 ## Categories
+- [Bash](<#Bash>)
 - [Black](<#Black>)
 - [Django](<#Django>)
 - [Doh](<#Doh>)
@@ -16,6 +17,9 @@ So far, I have learned 11 things.
 - [Python datatypes](<#Python-datatypes>)
 - [Python standard library](<#Python-standard-library>)
 ----
+### Bash
+- [Find all apps installed on a Mac](<./content/Bash/find_apps.md>)
+
 ### Black
 - [Excluding directories](<./content/Black/exclude_directories.md>)
 
