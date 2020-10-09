@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 12 things.
+So far, I have learned 13 things.
 
 ## Categories
 - [Bash](<#Bash>)
@@ -43,6 +43,7 @@ So far, I have learned 12 things.
 ### Python datatypes
 - [Dictionary comprehension](<./content/Python datatypes/dict_comps.md>)
 - [List Comprehensions to combine elements of multiple lists](<./content/Python datatypes/list_comp.md>)
+- [Use rsplit() to get the last section of a path](<./content/Python datatypes/rsplit_strings.md>)
 
 ### Python standard library
 - [Getting the difference between two datetime objects](<./content/Python standard library/timedelta.md>)
