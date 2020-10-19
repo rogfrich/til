@@ -4,7 +4,7 @@
 A collection of concise write-ups and code snippets on those small nuggets of information I'd otherwise forget.
 
 
-So far, I have learned 13 things.
+So far, I have learned 14 things.
 
 ## Categories
 - [Bash](<#Bash>)
@@ -16,6 +16,7 @@ So far, I have learned 13 things.
 - [Python built-ins](<#Python-built-ins>)
 - [Python datatypes](<#Python-datatypes>)
 - [Python standard library](<#Python-standard-library>)
+- [Web Design](<#Web-Design>)
 ----
 ### Bash
 - [Find all apps installed on a Mac](<./content/Bash/find_apps.md>)
@@ -47,6 +48,9 @@ So far, I have learned 13 things.
 
 ### Python standard library
 - [Getting the difference between two datetime objects](<./content/Python standard library/timedelta.md>)
+
+### Web Design
+- [Using Lorum Picsum to create random placeholder images](<./content/Web Design/lorum_picsum.md>)
 
 ## Usage
 To create a new article:
